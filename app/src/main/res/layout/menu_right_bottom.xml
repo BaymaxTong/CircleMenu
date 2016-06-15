@@ -1,0 +1,52 @@
+<com.baymax.circlemenu.view.ArcMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:position="right_bottom"
+    app:radius="100dp">
+
+    <ImageView
+        android:id="@+id/id_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape_grey"
+        android:src="@mipmap/ic_cancel" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_action_add"
+        android:background="@drawable/circle_shape_blue"
+        android:tag="Music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_action_clock"
+        android:background="@drawable/circle_shape_green"
+        android:tag="Place" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_action_info"
+        android:background="@drawable/circle_shape_red"
+        android:tag="Sleep" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_action_io"
+        android:background="@drawable/circle_shape_purple"
+        android:tag="Sun" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_action_location_2"
+        android:background="@drawable/circle_shape_orange"
+        android:tag="People" />
+
+</com.baymax.circlemenu.view.ArcMenu>
